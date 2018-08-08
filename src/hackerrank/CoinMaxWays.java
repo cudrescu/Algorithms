@@ -8,7 +8,7 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
-public class Solution {
+public class CoinMaxWays {
 
 	// Complete the getWays function below.
 	static long getWays(long n, long[] c) {
@@ -52,7 +52,6 @@ public class Solution {
 		int n = 4;
 
 		long[] c = new long[]{1,2,3};
-
 
 		long ways = getWays(n, c);
 
