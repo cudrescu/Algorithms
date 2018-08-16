@@ -61,7 +61,6 @@ public class HuffmanCode {
 	}
 
 	public static void main(String[] args) {
-
 		Map<Character, Integer> input = new HashMap<>();
 		input.put('f', 5);
 		input.put('e', 9);
