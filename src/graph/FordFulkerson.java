@@ -4,8 +4,6 @@ import java.util.*;
 
 public class FordFulkerson {
 
-
-
     static class Graph {
 
         int nrOfVertices;
