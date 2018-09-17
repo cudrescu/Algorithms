@@ -65,7 +65,7 @@ public class ClosestPoints {
 
 		Tuple leftResult = divideAndConquer(points, left, pivot);
 		Tuple rightResult = divideAndConquer(points, pivot, right);
-		Tuple midResult = getMidResult(points, pivot, Math.min(leftResult.distance, rightResult.distance);
+		Tuple midResult = getMidResult(points, pivot, Math.min(leftResult.distance, rightResult.distance));
 
 		return determineResult(leftResult, midResult, rightResult);
 	}
